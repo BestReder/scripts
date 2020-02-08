@@ -1,3 +1,3 @@
 #!/bin/bash
 
-feh --recursive --randomize --bg-fill ~/Pictures/Wallpaperpa/wp/
+feh --recursive --randomize --bg-fill ~/wallpapers/wp/
