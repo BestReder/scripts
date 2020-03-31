@@ -8,4 +8,5 @@ picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -
 nm-applet &
 fcitx &
 xfce4-power-manager &
+nohup /usr/lib/gsd-xsettings > /dev/null 2>&1 &
 #xautolock -time 5 -locker i3lock-fancy &
