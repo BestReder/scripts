@@ -10,6 +10,6 @@ nm-applet &
 fcitx &
 blueman-applet &
 xfce4-power-manager &
-/bin/bash ~/scripts/run-mailsync.sh &
+#/bin/bash ~/scripts/run-mailsync.sh &
 #nohup /usr/lib/gsd-xsettings > /dev/null 2>&1 &
 #xautolock -time 5 -locker i3lock-fancy &
