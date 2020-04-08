@@ -1,2 +1,2 @@
 #!/bin/bash
-xbacklight -dec 5
+xbacklight -dec 1
