@@ -1,4 +1,4 @@
 #!/bin/bash
 
-amixer set Master toggle
+amixer set Master 0
 

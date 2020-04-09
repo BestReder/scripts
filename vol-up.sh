@@ -1,4 +1,4 @@
 #!/bin/bash
 
-amixer -qM set Master 4%+ umute
+amixer -qM set Master 1%+ umute
 
