@@ -12,5 +12,8 @@ blueman-applet &
 xfce4-power-manager &
 wmname LG3D &
 #/bin/bash ~/scripts/run-mailsync.sh &
-#nohup /usr/lib/gsd-xsettings > /dev/null 2>&1 &
+nohup /usr/lib/gsd-xsettings > /dev/null 2>&1 &
 #xautolock -time 5 -locker i3lock-fancy &
+
+gsettings set org.gnome.desktop.interface gtk-theme Adapta-Eta
+gsettings set org.gnome.desktop.interface icon-theme Arc
