@@ -14,6 +14,8 @@ wmname LG3D &
 #/bin/bash ~/scripts/run-mailsync.sh &
 nohup /usr/lib/gsd-xsettings > /dev/null 2>&1 &
 #xautolock -time 5 -locker i3lock-fancy &
+echo "zjhnzyq" | sudo -S systemctl restart bumblebeed.service &
+/bin/bash ~/zjun.info/Hexo-BaiduPushTool/blog-autopush.sh &
 
 gsettings set org.gnome.desktop.interface gtk-theme Adapta-Eta
 gsettings set org.gnome.desktop.interface icon-theme Arc
