@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#xrandr --auto --output HDMI-1 --same-as DP-1 --size 1920x1080
+#xrandr --auto --output eDP-1 --right-of HDMI-1 --size 1920x1080
+#xrandr --auto --output eDP-1 --same-as HDMI-1 --size 1920x1080
 /bin/bash ~/github/scripts/dwm-status.sh &
 /bin/bash ~/github/scripts/wp-autochange.sh &
 #picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
